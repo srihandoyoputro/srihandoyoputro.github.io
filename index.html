@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="bagian-atas">
+        <p style="margin:5px;">KALKULATOR LUAS DAN KELILING SEGITIGA</p>
+
+    </div>
+
+    <div id="bagian-tengah">
+        <img style="width: 300px;height: auto;" src="asset/segitiga.PNG" alt="">
+
+    </div>
+
+    <div id="bagian-konten">
+        <label>Pilih fungsi perhitungan : </label>
+        <select id="hitung" name="pilihan" onchange="pilihsatu()">
+            <option value="null"></option>
+            <option value="LuasSegitiga">Luas Segitiga</option>
+            <option value="KelilingSegitiga">Keliling Segitiga</option>
+        </select>
+
+        <p id="narasi"></p>
+    </div>
+    
+    <footer style="background-color: #02355e;color: white;height: 20px;">
+        <p style="margin:5px; font-size: 15px;">Nama : Sri Handoyo Putro</p>
+    </footer>
+
+    <script src="js/choice.js">
+       
+    </script>
+</body>
+</html>
